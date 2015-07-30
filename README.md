@@ -48,4 +48,14 @@ After installing the plugin, you'll get a new option in the Build Environment se
 
 You can also specify how long to retain the dashboard data, the default is set to 30 days. Any data older than 30 days from the current time is automatically deleted.
 
-Once you have run at least one job with a populated Details for Environment dashboard section, you now have enough data to generate a dashboard.  On the Jenkins home page, click the + to create a new view and create a view.  If you leave all settings blank, you will see the deployments of all components into all environments. You can also limit the deployment history shown when you click on the environment name on the dashboard. The default is last 10 deploys.
+Once you have run at least one job with a populated Details for Environment dashboard section, you now have enough data to generate a dashboard.  On the Jenkins home page, click the + to create a new view and create a view.  If you leave all settings blank, you will see the deployments of all components into all environments. You can also limit the deployment history shown when you click on the environment name on the dashboard. The default is last 10 deploys.	
+
+
+V2 Features
+===========
+
+I Improvements 雾务 For those that are stuck on an old version of Jenkins, you may find the UI isn伍西t as 伍雾pretty伍雾. We伍西ve mellowed the colours a bit.
+Package Name parameter display 雾务 Rather than just displaying the build numbers, we display package names with an environment.
+History Improvements 雾务 We now enable history queries of all types (env by component, component only, env only)
+Custom Data/Columns 雾务 Probably the best new feature. We can now capture custom fields, so if you伍西re interested in custom information on deployments, you now have the ability to capture that.
+Database Management console 雾务 We sometimes find we don伍西t want data雾熙.so we伍西ve added a DB management console to remove the columns we don伍西t want anymore (especially the ones we伍西ve made awkward spelling mistakes).
